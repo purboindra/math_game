@@ -32,7 +32,6 @@ class GameActivity : AppCompatActivity() {
     private val startTimerInMillis: Long = 20000
     var timeLeftInMillis: Long = startTimerInMillis
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
